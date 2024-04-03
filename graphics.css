@@ -1,0 +1,129 @@
+@media (max-width: 768px) {
+    .gallery img {
+        width: 48%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: italic;
+}
+
+
+nav {
+    text-align: center;
+    margin-bottom: 50px;
+    transition: top 0.3s;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #777; 
+    font-family: Arial, sans-serif; 
+    transition: color 0.3s; 
+}
+nav a:hover {
+    color: #000; 
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; 
+}
+.gallery img {
+    width: 30%; 
+    margin-bottom: 40px;
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+.about {
+    text-align: center;
+}
+.about h2 {
+    margin-bottom: 20px;
+}
+.about-content {
+    max-width: 600px; 
+    margin: 0 auto;
+}
+.about-content p {
+    font-size: 20px; 
+    font-family: "Times New Roman";
+    text-align: center;
+    line-height: 1.5;
+    max-height: 7.5em; 
+    overflow: hidden;
+}
+
+.contact {
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+}
+.contact h2 {
+    color: #000000; 
+    font-size: 24px; 
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #777;
+    padding: 5px 10px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+.contact a:hover {
+    background-color: #000000;
+}
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact .contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-number,
+.instagram {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add some space between phone number and Instagram details */
+}
+.contact .phone-number a {
+    margin-right: 50px; 
+}
+.contact .instagram a {
+    margin-left: 0px; 
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 1px 0;
+}
