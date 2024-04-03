@@ -1,6 +1,10 @@
 @media (max-width: 768px) {
+    .gallery {
+        justify-content: space-between; /* Distribute photos evenly */
+        gap: 10px; /* Reduce gap between photos */
+    }
     .gallery img {
-        width: 48%;
+        width: calc(33.333% - 7.5px); /* Three photos per row with 7.5px gap */
     }
 }
 
@@ -36,7 +40,8 @@ nav a {
     margin: 0 10px;
     text-decoration: none;
     color: #777; 
-    font-family: Arial, sans-serif; 
+    font-family: cursive; 
+    font-size: 16px;
     transition: color 0.3s; 
 }
 nav a:hover {
@@ -60,6 +65,7 @@ nav a:hover {
     text-align: center;
 }
 .about h2 {
+    font-family: cursive;
     margin-bottom: 20px;
 }
 .about-content {
@@ -67,8 +73,9 @@ nav a:hover {
     margin: 0 auto;
 }
 .about-content p {
-    font-size: 20px; 
-    font-family: "Times New Roman";
+    font-size: 19px; 
+    font-family: cursive;
+    color: #464343; 
     text-align: center;
     line-height: 1.5;
     max-height: 7.5em; 
@@ -82,6 +89,7 @@ nav a:hover {
     padding: 25px 0;
 }
 .contact h2 {
+    font-family: cursive;
     color: #000000; 
     font-size: 24px; 
     font-weight: bold;
