@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
     padding: 0;
 }
@@ -29,6 +29,9 @@ header {
     margin-bottom: 20px;
     font-family: italic;
 }
+.red {
+    color: red;
+}
 
 
 nav {
@@ -40,7 +43,8 @@ nav a {
     margin: 0 10px;
     text-decoration: none;
     color: #777; 
-    font-family: cursive, Arial, sans-serif; 
+    font-family: Papyrus;
+    font-weight: bold; 
     font-size: 16px;
     transition: color 0.3s; 
 }
@@ -65,7 +69,8 @@ nav a:hover {
     text-align: center;
 }
 .about h2 {
-    font-family: cursive, Arial, sans-serif;
+    font-family: Papyrus;
+    font-weight: bold; 
     margin-bottom: 20px;
 }
 .about-content {
@@ -73,12 +78,13 @@ nav a:hover {
     margin: 0 auto;
 }
 .about-content p {
-    font-size: 19px; 
-    font-family: cursive, Arial, sans-serif;
-    color: #464343; 
+    font-size: 19px;
+    font-family: Papyrus;
+    font-weight: bold;
+    color: #464343;
     text-align: center;
     line-height: 1.5;
-    max-height: 7.5em; 
+    max-height: 7.5em;
     overflow: hidden;
 }
 
@@ -89,7 +95,8 @@ nav a:hover {
     padding: 25px 0;
 }
 .contact h2 {
-    font-family: cursive, Arial, sans-serif;
+    font-family: Papyrus;
+    font-weight: bold; 
     color: #000000; 
     font-size: 24px; 
     font-weight: bold;
@@ -116,9 +123,15 @@ nav a:hover {
     justify-content: center;
     align-items: center;
 }
-.phone-number,
+.phone-number {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-bottom: 20px; /* Add some space between phone number and Instagram details */
+}
 .instagram {
     display: flex;
+    font-size: 16px;
     align-items: center;
     margin-bottom: 20px; /* Add some space between phone number and Instagram details */
 }
@@ -131,7 +144,9 @@ nav a:hover {
 
 footer {
     background-color: #ffffff;
-    color: #000000;
+    font-family: monospace;
+    font-size: 14px; 
+    color: #777;
     text-align: center;
     padding: 1px 0;
 }
