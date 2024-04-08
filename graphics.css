@@ -52,13 +52,25 @@ nav a:hover {
     color: #000; 
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); /* Three items per row */
-    row-gap: 8%;
-    column-gap: 5%; 
-    justify-content: space-between;
-    margin-bottom: 10%;
+@media (min-width: 769px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); /* Three items per row on desktop */
+        row-gap: 8%; 
+        column-gap: 5%; 
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+}
+@media (max-width: 768px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(45%, 1fr)); /* Two items per row on mobile */
+        row-gap: 5%;
+        column-gap: 5%; 
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
 }
 .gallery img {
     width: 100%; /* Occupy the entire grid cell */
@@ -74,9 +86,6 @@ nav a:hover {
     font-family: Papyrus;
     font-weight: bold; 
     margin-bottom: 20px;
-}
-.about-content {
-    margin: 0 auto;
 }
 .about-content p {
     font-size: 19px;
