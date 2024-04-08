@@ -58,7 +58,7 @@ nav a:hover {
     row-gap: 8%;
     column-gap: 5%; 
     justify-content: space-between;
-    margin-bottom: 250px;
+    margin-bottom: 10%;
 }
 .gallery img {
     width: 100%; /* Occupy the entire grid cell */
@@ -68,7 +68,7 @@ nav a:hover {
 
 .about {
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 2%;
 }
 .about h2 {
     font-family: Papyrus;
@@ -102,7 +102,7 @@ nav a:hover {
     color: #000000; 
     font-size: 24px; 
     font-weight: bold;
-    margin-bottom: 20px; 
+    margin-bottom: 2%; 
 }
 .contact a {
     color: #fff;
