@@ -55,10 +55,10 @@ nav a:hover {
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); /* Three items per row */
-    row-gap: 10%;
+    row-gap: 8%;
     column-gap: 5%; 
     justify-content: space-between;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 }
 .gallery img {
     width: 100%; /* Occupy the entire grid cell */
