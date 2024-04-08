@@ -58,7 +58,7 @@ nav a:hover {
     row-gap: 10%;
     column-gap: 5%; 
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 200px;
 }
 .gallery img {
     width: 100%; /* Occupy the entire grid cell */
