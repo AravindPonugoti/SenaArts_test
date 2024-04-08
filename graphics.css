@@ -80,7 +80,7 @@ nav a:hover {
 
 .about {
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
 }
 .about h2 {
     font-family: Papyrus;
@@ -95,7 +95,6 @@ nav a:hover {
     text-align: center;
     line-height: 1.5;
     max-height: 7.5em;
-    overflow: hidden;
 }
 
 .contact {
