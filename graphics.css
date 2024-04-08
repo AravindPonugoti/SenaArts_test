@@ -40,7 +40,7 @@ nav a {
     margin: 0 10px;
     text-decoration: none;
     color: #777; 
-    font-family: cursive; 
+    font-family: cursive, Arial, sans-serif; 
     font-size: 16px;
     transition: color 0.3s; 
 }
@@ -65,7 +65,7 @@ nav a:hover {
     text-align: center;
 }
 .about h2 {
-    font-family: cursive;
+    font-family: cursive, Arial, sans-serif;
     margin-bottom: 20px;
 }
 .about-content {
@@ -74,7 +74,7 @@ nav a:hover {
 }
 .about-content p {
     font-size: 19px; 
-    font-family: cursive;
+    font-family: cursive, Arial, sans-serif;
     color: #464343; 
     text-align: center;
     line-height: 1.5;
@@ -89,7 +89,7 @@ nav a:hover {
     padding: 25px 0;
 }
 .contact h2 {
-    font-family: cursive;
+    font-family: cursive, Arial, sans-serif;
     color: #000000; 
     font-size: 24px; 
     font-weight: bold;
