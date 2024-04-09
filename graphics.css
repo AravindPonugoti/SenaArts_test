@@ -145,13 +145,13 @@ nav a:hover {
 }
 .phone-number {
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     align-items: center;
     margin-bottom: 20px; /* Add some space between phone number and Instagram details */
 }
 .instagram {
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     align-items: center;
     margin-bottom: 20px; /* Add some space between phone number and Instagram details */
 }
